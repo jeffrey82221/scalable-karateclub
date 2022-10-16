@@ -1,4 +1,15 @@
+# Intro to Scalable-karateclub
 
+This is a project derived from karateclub. We will use nxneo4j to replace the original networkx for storing the graph, hence, making the tool scalable. 
+
+REF: 
+1. https://medium.com/neo4j/nxneo4j-networkx-api-for-neo4j-a-new-chapter-9fc65ddab222
+2. https://karateclub.readthedocs.io/en/latest/modules/root.html#neighbourhood-based-node-embedding
+
+NOTE:
+Why do I select karateclub API? => karateclub has a more structured codebase, and hence it can be easier to maintain. 
+
+# Original karateclub README:
  ![Version](https://badge.fury.io/py/karateclub.svg?style=plastic)
  ![License](https://img.shields.io/github/license/benedekrozemberczki/karateclub.svg)
 [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/karateclub.svg)](https://github.com/benedekrozemberczki/karateclub/archive/master.zip)
